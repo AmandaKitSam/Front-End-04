@@ -18,6 +18,17 @@
 
 - Section 2: Favorite Meals
 
+- Section 3: How It Works
+
+- Section 4: Cities ("We're currently in these cities")
+
+- Section 5: Customer Testimonials
+
+- Section 6: Sign Up and Pricing Plans
+
+- Section 7: Contact Form
+
+- Section 8: Footer
 
 -------------------------------------------
 

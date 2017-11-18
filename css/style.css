@@ -1,6 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid grey; /* TO BE REMOVE AT THE END */
+}
 
+html {
+  background-color: #f0f0f0;
+  /*font-family: 'Saira Semi Condensed', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
 
-
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 
 /*--------------------------  --------------------------*/

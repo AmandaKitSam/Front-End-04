@@ -1,17 +1,33 @@
+/*
+Main Orange(carrot): #e67e22;
+2nd Orange(pumpkin): #de5800;
+*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid grey; /* TO BE REMOVE AT THE END */
+  /*border: 1px solid grey; /* TO BE REMOVE AT THE END */*/
 }
 
 html {
   background-color: #f0f0f0;
   /*font-family: 'Saira Semi Condensed', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 230%;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 4px;
 }
 
 .row {
@@ -20,7 +36,7 @@ html {
 }
 
 
-/*-------------------------- 1. HEADER --------------------------*/
+/*-------------------------- 1. HEADER + Nav --------------------------*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg); /* To make the image darker */
   background-size: cover;
@@ -37,15 +53,38 @@ header {
   transform: translate(-50%, -50%);
 }
 
-h1 {
-  margin-top: 0;
-  margin-bottom: 20px;
+.logo {
+  height: 110px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 60px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
   color: #ffffff;
-  font-size: 230%;
-  font-weight: 400;
+  text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 4px;
+  font-size: 90%;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e67e22;
+  text-decoration: overline;
+  transition: all 0.3s ease-in-out;
 }
 
 
@@ -70,8 +109,8 @@ h1 {
 
 .btn-full:hover,
 .btn-full:active {
-  background-color: #d35400;
-  border: 2px solid #d35400;
+  background-color: #de5800;
+  border: 2px solid #de5800;
   transition: all 0.3s ease-in-out;
 }
 
@@ -84,9 +123,9 @@ h1 {
 
 .btn-ghost:hover,
 .btn-ghost:active {
-  background-color: #d35400;
+  background-color: #de5800;
   color: #ffffff;
-  border: 2px solid #d35400;
+  border: 2px solid #de5800;
   transition: all 0.3s ease-in-out;
 }
 

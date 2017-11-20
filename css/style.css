@@ -176,15 +176,15 @@ header {
   margin-bottom: 10px;
 }
 
-.icon-center {
-  text-align: center;
-}
-
-.long-copy {
+.features .long-copy {
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.icon-center {
+  text-align: center;
 }
 
 .box {

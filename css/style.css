@@ -245,6 +245,10 @@ header {
 
 
 /*-------------------------- 4.HOW IT WORKS  --------------------------*/
+.steps {
+  background-color: #eeecec;
+}
+
 .steps-box:first-child {
   text-align: right;
   padding-right: 4%;

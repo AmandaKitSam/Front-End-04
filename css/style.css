@@ -8,7 +8,7 @@ Main Orange(bright carrot): #ff8a22;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   /* TO BE REMOVE AT THE END */
 }
 
@@ -19,6 +19,15 @@ html {
   font-size: 20px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 section {
@@ -248,11 +257,21 @@ header {
 }
 
 .app-screen {
-  width: 45%;
+  width: 47%; /* Phone */
+}
+
+.btn-app img {
+  height: 47px; /* App Buttons */
+  width: auto;
+  margin-right: 15px;
 }
 
 .works-step {
   margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 110px;
 }
 
 .works-step div {
@@ -269,6 +288,7 @@ header {
   font-size: 140%;
   margin-right: 25px;
 }
+
 
 
 

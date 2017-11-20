@@ -14,7 +14,7 @@ html {
   background-color: #f0f0f0;
   /*font-family: 'Saira Semi Condensed', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
 }
@@ -30,13 +30,17 @@ h1 {
   word-spacing: 4px;
 }
 
+p {
+  text-align: justify;
+}
+
 .row {
   max-width: 1140px;
   margin: 0 auto;
 }
 
 
-/*-------------------------- 1. HEADER + Nav --------------------------*/
+/*-------------------------- 1.HEADER + Nav --------------------------*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg); /* To make the image darker */
   background-size: cover;
@@ -76,7 +80,7 @@ header {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 90%;
+  font-size: 95%;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -131,7 +135,7 @@ header {
 }
 
 
-/*-------------------------- 2.  --------------------------*/
+/*-------------------------- 2.FEATURES  --------------------------*/
 
 
 

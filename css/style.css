@@ -342,10 +342,20 @@ header {
 
 /*-------------------------- FOOTER --------------------------*/
 footer {
-  padding: 10px 0;
-  background-color: #262626;
+  padding: 45px 0;
+  background-color: #242424;
   text-transform: uppercase;
-  color: white;
+}
+
+footer p {
+  font-size: 90%;
+  color: #aaaaaa;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer i {
+  font-size: 1.4em;
 }
 
 .footer-nav {
@@ -364,13 +374,26 @@ footer {
   margin-right: 20px;
 }
 
-.footer-nav a,
-.social-links a {
-  color: #ff8a22;
-  text-decoration: none;
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin: 0;
 }
 
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+  color: #aaaaaa;
+  text-decoration: none;
+  border: 0;
+  transition: all 0.2s ease-in-out;
+}
 
+.footer-nav li a:hover,
+.social-links li a:active {
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
 
 
 

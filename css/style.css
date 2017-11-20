@@ -340,6 +340,39 @@ header {
 
 
 
+/*-------------------------- FOOTER --------------------------*/
+footer {
+  padding: 10px 0;
+  background-color: #262626;
+  text-transform: uppercase;
+  color: white;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav a,
+.social-links a {
+  color: #ff8a22;
+  text-decoration: none;
+}
+
+
+
+
 
 
 

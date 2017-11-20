@@ -176,6 +176,10 @@ header {
   margin-bottom: 10px;
 }
 
+.icon-center {
+  text-align: center;
+}
+
 .long-copy {
   line-height: 145%;
   width: 70%;
@@ -212,6 +216,7 @@ header {
 
 .meal-photo img {
   width: 100%;
+  height: auto;
 }
 
 

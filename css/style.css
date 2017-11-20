@@ -1,6 +1,7 @@
 /*
-Main Orange(carrot): #e67e22;
-2nd Orange(pumpkin): #de5800;
+Main Orange(bright carrot): #ff8a22;
+2nd Orange(carrot): #ff8a22;
+3rd Orange(pumpkin): #de5800;
 */
 
 * {
@@ -44,7 +45,7 @@ h2 {
 h2:after {
   display: block;
   height: 3px;
-  background-color: #e67e22;
+  background-color: #ff8a22;
   content: "";
   width: 100px;
   margin: 0 auto;
@@ -118,7 +119,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid #e67e22;
+  border-bottom: 2px solid #ff8a22;
   text-decoration: overline;
   transition: all 0.3s ease-in-out;
 }
@@ -137,8 +138,8 @@ header {
 
 .btn-full:link,
 .btn-full:visited {
-  background-color: #e67e22;
-  border: 2px solid #e67e22;
+  background-color: #ff8a22;
+  border: 2px solid #ff8a22;
   color: #ffffff;
   margin-right: 15px;
 }
@@ -152,8 +153,8 @@ header {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-  border: 2px solid #e67e22;
-  color: #e67e22;
+  border: 2px solid #ff8a22;
+  color: #ff8a22;
   transition: all 0.3s ease-in-out;
 }
 
@@ -190,6 +191,8 @@ header {
   line-height: 145%;
 }
 
+
+/*-------------------------- 3.MEALS  --------------------------*/
 
 
 

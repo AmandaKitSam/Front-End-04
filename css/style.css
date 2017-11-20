@@ -48,6 +48,8 @@ h1 {
   word-spacing: 4px;
 }
 
+
+/*-------------------------- Buttons --------------------------*/
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -88,6 +90,8 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
+
+/*-------------------------- 2.  --------------------------*/
 
 
 

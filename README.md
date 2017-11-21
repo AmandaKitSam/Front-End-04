@@ -18,7 +18,7 @@
 
 - Section 2: Favorite Meals
 
-- Section 3: How It Works
+- Section 3: How It Works - steps
 
 - Section 4: Cities ("We're currently in these cities")
 
@@ -33,3 +33,4 @@
 -------------------------------------------
 
 Please visit the website:<br/>
+https://amandakitsam.github.io/Front-End-04/

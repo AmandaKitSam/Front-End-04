@@ -69,6 +69,15 @@
     margin: 0 0 4% 0;
   }
 
+  /* links - look like button */
+  .hero-text-box { text-align: center; }
+  .btn:link,
+  .btn:visited {
+    display: relative;
+    padding: 10px 30px;
+    font-size: 85%;
+  }
+
   /*--- Nav section ---*/
   .main-nav { display: none; }
   .mobile-nav-icon {display: inline-block;}

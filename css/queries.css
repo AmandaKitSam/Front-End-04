@@ -16,23 +16,28 @@
   section { padding: 60px 0; }
 
   .long-copy {
-      width: 80%;
-      margin-left: 10%;
+    width: 80%;
+    margin-left: 10%;
   }
 
-    .steps-box { margin-top: 10px; }
-    .steps-box:last-child { margin-top: 10px; }
-    .works-steps { margin-bottom: 40px; }
-    .works-step:last-of-type { margin-bottom: 60px; }
+  /*--- 4.HOW IT WORKS section ---*/
+  .steps-box { margin-top: 10px; }
+  .steps-box:first-child { margin-top: 10px; }
+  .steps-box:last-child { margin-top: 10px; }
+  .works-step { margin-bottom: 40px; }
+  .works-step:last-of-type { margin-bottom: 60px; }
+  .works-step p { font-size: 90%; }
+  /*- Phone Image -*/
+  .app-screen { width: 62%; }
 
-    .app-screen { width: 50%; }
+  /*--- 5.LOCATIONS section ---*/
+  .city-feature i {
+    font-size: 1.2em;
+    width: 17px;
+    margin-right: 5px;
+  }
 
-    .icon-small {
-        width: 17px;
-        margin-right: 5px;
-    }
-
-    .city-feature { font-size: 90%; }
+  .city-feature { font-size: 78%; }
 
     .plan-box {
         width: 100%;
@@ -115,5 +120,5 @@
 /*---------- Small Phones: From 0 To 480px ----------*/
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
-    .contact-form {width: 100%; }
+    .contact-form { width: 100%; }
 }

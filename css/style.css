@@ -85,9 +85,14 @@ p {
 /*-------------------------- 1.HEADER + Nav --------------------------*/
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg); /* To make the image darker */
-  background-size: cover;
-  background-position: center;
   height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Parallax Effect */
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /*- To place the header div in the middle -*/

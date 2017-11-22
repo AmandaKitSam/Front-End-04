@@ -46,24 +46,32 @@
 
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
+
+  /*--- FOOTER section ---*/
+  footer { padding: 30px 0; }
+  footer p {
+    font-size: 85%;
+    margin-top: 15px;
+  }
 }
 
 
 
 /*---------- Small Devices (phones & some tablets): From 481px To 767px ----------*/
 @media only screen and (max-width: 767px) {
-    body { font-size: 16px; }
-    section { padding: 30px 0; }
+  body { font-size: 16px; }
+  section { padding: 30px 0; }
 
-    .row,
-    .hero-text-box { padding: 0 4%; }
-    .col {
-        width: 100%;
-        margin: 0 0 4% 0;
-    }
+  .row,
+  .hero-text-box { padding: 0 4%; }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
 
-    .main-nav { display: none; }
-    .mobile-nav-icon {display: inline-block;}
+  /*--- Nav section ---*/
+  .main-nav { display: none; }
+  .mobile-nav-icon {display: inline-block;}
 
     .main-nav {
         float: left;
@@ -90,29 +98,41 @@
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
 
+  /*--- 1.HEADER section ---*/
+  h1 { font-size: 180%; }
+  h2 { font-size: 150%; }
 
-    h1 { font-size: 180%; }
-    h2 { font-size: 150%; }
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  /*--- Photo Image ---*/
+  .app-screen { width: 40%; }
+  .steps-box:first-child { text-align: center; }
 
-    .long-copy {
-        width: 100%;
-        margin-left: 0%;
-    }
+  /*--- 4.HOW IT WORKS section ---*/
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+  }
+  .works-step { margin-bottom: 20px; }
+  .works-step:last-of-type { margin-bottom: 20px; }
 
-    .app-screen { width: 40%; }
-    .steps-box:first-child { text-align: center; }
-
-    .works-step div {
-        height: 40px;
-        width: 40px;
-        margin-right: 15px;
-        padding: 4px;
-        font-size: 120%;
-    }
-
-    .works-step { margin-bottom: 20px; }
-    .works-step:last-of-type { margin-bottom: 20px; }
-
+  /*--- FOOTER section ---*/
+  footer { padding: 20px 0; }
+  footer p {
+    font-size: 80%;
+    margin-top: 10px;
+  }
+  footer i { font-size: 1.2em; }
+  .footer-nav { text-align: center; }
+  .social-links {
+    float: none;
+    text-align: center;
+  }
 }
 
 

@@ -460,6 +460,24 @@ cite img {
 
 
 
+/*-------------------------- 8.CONTACT FORM --------------------------*/
+.contact-form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 9px;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+
+
+
 /*------------------------------ FOOTER ------------------------------*/
 footer {
   padding: 45px 0;

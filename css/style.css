@@ -347,6 +347,51 @@ header {
 
 
 
+/*-------------------------- 6.TESTIMONIALS --------------------------*/
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/back-customers.jpg);
+  background-size: cover;
+  color: #ffffff;
+  background-attachment: fixed; /* Parallax Effect */
+}
+
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  text-align: justify;
+  position: relative;
+  margin-top: 20px;
+}
+
+blockquote:before {
+  /* Glyphs css tricks https://css-tricks.com/snippets/html/glyphs/ */
+  content: "\201C";
+  font-size: 400%;
+  display: block;
+  position: absolute; /* Make sure the parent's position is relative */
+  top: -5px;
+  left: 0;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+cite img {
+  height: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+
+/*--------------------------  --------------------------*/
+
+
 
 /*-------------------------- FOOTER --------------------------*/
 footer {
@@ -402,19 +447,3 @@ footer i {
   color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------  --------------------------*/

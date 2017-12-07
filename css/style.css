@@ -397,7 +397,7 @@ cite img {
 footer {
   padding: 45px 0;
   background-color: #242424;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 footer p {

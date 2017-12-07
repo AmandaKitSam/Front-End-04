@@ -144,7 +144,8 @@ header {
 
 /*-------------------------- Buttons --------------------------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
   display: inline-block;
   padding: 12px 35px;
   font-size: 90%;
@@ -155,7 +156,8 @@ header {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
   background-color: #ff8a22;
   border: 1.2px solid #ff8a22;
   color: #ffffff;
@@ -163,7 +165,9 @@ header {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: #de5800;
   border: 1.2px solid #de5800;
   transition: all 0.3s ease-in-out;
@@ -404,7 +408,7 @@ cite img {
 }
 
 .plan-box:hover {
-  box-shadow: 5px 5px 15px #999999;
+  box-shadow: 8px 8px 20px #999999;
   transition: all 0.4s ease-in-out;
 }
 
@@ -475,6 +479,20 @@ textarea {
   border-radius: 10px;
   border: 1px solid #cccccc;
 }
+
+textarea {
+  height: 100px;
+}
+
+input[type=submit] {
+  padding: 10px 50px;
+}
+
+input[type=checkbox] {
+  margin: 10px 0 10px 5px;
+}
+
+*:focus { outline: none;}
 
 
 

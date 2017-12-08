@@ -498,13 +498,14 @@ input[type=checkbox] {
 
 /*------------------------------ FOOTER ------------------------------*/
 footer {
-  padding: 45px 0;
+  padding: 40px 0;
   background-color: #242424;
   text-transform: capitalize;
+  font-size: 95%;
 }
 
 footer p {
-  font-size: 90%;
+  font-size: 85%;
   color: #aaaaaa;
   text-align: center;
   margin-top: 20px;

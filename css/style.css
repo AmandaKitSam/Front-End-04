@@ -245,7 +245,7 @@ input[type=submit]:active {
   opacity: 0.75;
   width: 100%;
   height: auto;
-  transform: scale(1.04); /* Make images to 100% */
+  transform: scale(1.05); /* Make images to 105% */
   transition: all 0.6s ease-in-out;
 }
 

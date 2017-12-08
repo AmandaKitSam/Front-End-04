@@ -505,14 +505,13 @@ footer {
 }
 
 footer p {
-  font-size: 85%;
   color: #aaaaaa;
   text-align: center;
   margin-top: 20px;
 }
 
 footer i {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 .footer-nav {
@@ -561,20 +560,16 @@ footer i {
 
 .ion-social-facebook:hover {
   color: #3b5998;
-  transition: all 0.3s ease-in-out;
 }
 
 .ion-social-twitter:hover {
   color: #00aced;
-  transition: all 0.3s ease-in-out;
 }
 
 .ion-social-googleplus:hover {
   color: #dd4b39;
-  transition: all 0.3s ease-in-out;
 }
 
 .ion-social-instagram:hover {
   color: #517fa4;
-  transition: all 0.3s ease-in-out;
 }

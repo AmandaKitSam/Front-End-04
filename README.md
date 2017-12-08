@@ -6,7 +6,7 @@
 
 - To build a great quality website with animations
 
-- It is a responsive and mobile-first project
+- It is a responsive and mobile-friendly website
 
 ### Overview:
 
@@ -16,11 +16,11 @@
 
 - Section 1: Features
 
-- Section 2: Favorite Meals
+- Section 2: Favourite Meals
 
-- Section 3: How It Works - steps
+- Section 3: How It Works - Steps
 
-- Section 4: Cities ("We're currently in these cities")
+- Section 4: Cities ("Currently in these cities")
 
 - Section 5: Customer Testimonials
 

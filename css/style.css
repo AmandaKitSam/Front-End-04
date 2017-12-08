@@ -551,3 +551,30 @@ footer i {
   color: #ffffff;
   transition: all 0.2s ease-in-out;
 }
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  transition: all 0.3s ease-in-out;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+  transition: all 0.3s ease-in-out;
+}
+
+.ion-social-twitter:hover {
+  color: #00aced;
+  transition: all 0.3s ease-in-out;
+}
+
+.ion-social-googleplus:hover {
+  color: #dd4b39;
+  transition: all 0.3s ease-in-out;
+}
+
+.ion-social-instagram:hover {
+  color: #517fa4;
+  transition: all 0.3s ease-in-out;
+}

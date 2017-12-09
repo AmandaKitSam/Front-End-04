@@ -12,7 +12,7 @@
 
 #### Design a website for a healthy food company to promote the business
 
-- Navigation and Header: "Goodbye junk food. Hello healthy meals."
+- Section 0: Navigation and Header
 
 - Section 1: Features
 

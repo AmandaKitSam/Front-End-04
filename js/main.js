@@ -31,4 +31,29 @@ $(document).ready(function() {
   // ----- END Scroll on Buttons -----
 
 
+  // ----- Navbar Smooth Scroll -----
+
+  var scroll = new SmoothScroll('a[href*="#features"]', {
+    speed: 1000,
+    easing: 'easeInOutCubic',
+    offset: 0 // Speac on the top
+  });
+  var scroll = new SmoothScroll('a[href*="#steps"]', {
+    speed: 1000,
+    easing: 'easeInOutCubic',
+    offset: 0
+  });
+  var scroll = new SmoothScroll('a[href*="#locations"]', {
+    speed: 1000,
+    easing: 'easeInOutCubic',
+    offset: 50
+  });
+  var scroll = new SmoothScroll('a[href*="#form"]', {
+    speed: 1000,
+    easing: 'easeInOutCubic',
+    offset: 0
+  });
+
+  // ----- END Navbar Smooth Scroll -----
+
 }); // END.ready function

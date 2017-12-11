@@ -56,4 +56,25 @@ $(document).ready(function() {
 
   // ----- END Navbar Smooth Scroll -----
 
+
+  // ----- MOBILE Nav -----
+
+  $('.js--nav-icon').click(function() {
+    var nav = $('.js--main-nav');
+    var icon = $('.js--nav-icon i');
+
+    nav.slideToggle(200);
+
+    if ( icon.hasClass('ion-navicon-round') ) {
+      icon.removeClass('ion-navicon-round');
+      icon.addClass('ion-close-circled');
+    } else {
+      icon.addClass('ion-navicon-round');
+      icon.removeClass('ion-close-circled');
+    }
+  });
+
+  // ----- END MOBILE Nav -----
+
+
 }); // END.ready function

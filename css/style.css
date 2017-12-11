@@ -634,3 +634,14 @@ footer i {
 .ion-social-instagram:hover {
   color: #517fa4;
 }
+
+
+
+/*------------------------------ ANIMATIONS ------------------------------*/
+/*.js--wp-phone {
+  opacity: 0;
+}
+
+.js--wp-phone.animated {
+  opacity: 1;
+}*/

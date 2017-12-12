@@ -8,6 +8,8 @@
 
 - It is a responsive and mobile-friendly website
 
+- Performance Optimization: site speed
+
 ### Overview:
 
 #### Design a website for a healthy food company to promote the business

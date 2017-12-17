@@ -2,13 +2,15 @@
 
 ## By Amanda Sam
 
-### Build Responsive Websites with HTML5, CSS3, JavaScript and jQuery
+### Build Responsive Websites with HTML5, CSS3, JavaScript, jQuery and Google Map API
 
 - To build a great quality website with animations
 
 - It is a responsive and mobile-friendly website
 
-- Performance Optimization: site speed
+- Performance Optimization: improve site speed
+
+- Included Google Map: indecate the location of the head office
 
 ### Overview:
 
@@ -28,7 +30,7 @@
 
 - Section 6: Sign Up and Pricing Plans
 
-- Section 7: Contact Form
+- Section 7: Contact Form + Head Office shown on Google Map
 
 - Section 8: Footer
 

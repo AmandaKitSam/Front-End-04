@@ -77,4 +77,15 @@ $(document).ready(function() {
   // ----- END MOBILE Nav -----
 
 
+  // ----- Google Map -----
+
+  new GMaps({
+    div: '.map',
+    lat: -33.8688,
+    lng: 151.2093
+  });
+
+  // ----- END Google Map -----
+
+
 }); // END.ready function

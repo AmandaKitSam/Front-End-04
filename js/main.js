@@ -87,12 +87,18 @@ $(document).ready(function() {
   });
 
   map.addMarker({
-    lat: -33.8688,
-    lng: 151.2100,
+    lat: -33.8670,
+    lng: 151.2110,
     title: 'Sydney',
     infoWindow: {
       content: '<p>SamFood Head Office</p>'
     }
+  });
+
+  map.drawOverlay({
+    lat: -33.8670,
+    lng: 151.2110,
+    content: '<div class="overlay" style="background-color: #ffffff; padding: 5px 10px; border: 0.4px solid #222222; border-radius: 30px;">SamFood</div>'
   });
 
   // ----- END Google Map -----

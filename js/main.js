@@ -77,7 +77,7 @@ $(document).ready(function() {
   // ----- END MOBILE Nav -----
 
 
-  // ----- Google Map -----
+  // ----- Google Map (gmaps.js) -----
 
   var map = new GMaps({
     div: '.map',

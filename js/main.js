@@ -79,10 +79,20 @@ $(document).ready(function() {
 
   // ----- Google Map -----
 
-  new GMaps({
+  var map = new GMaps({
     div: '.map',
     lat: -33.8688,
-    lng: 151.2093
+    lng: 151.2240,
+    zoom: 15
+  });
+
+  map.addMarker({
+    lat: -33.8688,
+    lng: 151.2100,
+    title: 'Sydney',
+    infoWindow: {
+      content: '<p>SamFood Head Office</p>'
+    }
   });
 
   // ----- END Google Map -----

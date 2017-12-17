@@ -537,7 +537,7 @@ cite img {
 
 /*-------------------------- 8.CONTACT FORM --------------------------*/
 .contact-form {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -565,9 +565,29 @@ input[type=checkbox] {
 
 *:focus { outline: none;}
 
-.map {
+/*--- Google Map ---*/
+.map-box {
   width: 100%;
-  height: 500px;
+  height: 600px;
+  position: relative; /* parent of .form-box */
+}
+
+.map {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: 0;
+}
+
+.form-box {
+  position: absolute; /* child of .map-box */
+  height: 600px;
+  width: 50%;
+  padding-top: 40px;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 10;
 }
 
 

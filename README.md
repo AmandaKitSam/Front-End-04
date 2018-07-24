@@ -1,8 +1,8 @@
 # Front-End Project 04
 
-## By Amanda Sam
+## Built by Amanda Sam
 
-### Build Responsive Websites with HTML5, CSS3, JavaScript, jQuery and Google Map API
+### Responsive Websites with HTML5, CSS3, JavaScript, jQuery and Google Map API
 
 - To build a great quality website with animations
 
@@ -12,7 +12,7 @@
 
 - Included Google Map: indecate the location of the head office
 
-### Overview:
+### Overview
 
 #### Design a website for a healthy food company to promote the business
 
@@ -34,7 +34,7 @@
 
 - Section 8: Footer
 
--------------------------------------------
+---
 
 Please visit the website:<br/>
 https://amandakitsam.github.io/Front-End-04/

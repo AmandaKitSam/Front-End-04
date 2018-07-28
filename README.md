@@ -24,7 +24,7 @@
 
 - Section 3: How It Works - Steps
 
-- Section 4: Cities ("Currently in these cities")
+- Section 4: Cities - Business Locations
 
 - Section 5: Customer Testimonials
 

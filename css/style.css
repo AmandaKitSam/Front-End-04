@@ -15,7 +15,6 @@ Main Orange(bright carrot): #ff8a22;
 html,
 body {
   background-color: #f0f0f0;
-  /*font-family: 'Saira Semi Condensed', sans-serif;*/
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -32,9 +31,7 @@ body {
   visibility: hidden;
 }
 
-section {
-  padding: 85px 0;
-}
+section { padding: 85px 0; }
 
 h1, h2, h3 {
   font-weight: 400;
@@ -74,9 +71,9 @@ h3 {
   text-align: center;
 }
 
-p {
-  text-align: justify;
-}
+p { text-align: justify; }
+
+.small-font { font-size: 12px; }
 
 .row {
   max-width: 1140px;
